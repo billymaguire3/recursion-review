@@ -23,4 +23,24 @@ var getElementsByClassName = function(className
 };
 
 
+// var getElementsByClassName = function(className, nodes
+// ) {
+//   // your code here
+//   var resultArray = [];
+//   nodes = node || document.body;
+//   var helperFunction = function(node) {
+//     if (node.classList && node.classList.contains(className)) {
+//       resultArray.push(node);
+//     }
+
+//     _.each(node.childNodes, function(child) {
+//       helperFunction(child);
+//     });
+//   };
+
+//   // helperFunction(document.body);
+//   return resultArray;
+// };
+
+
 
